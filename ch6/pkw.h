@@ -15,6 +15,8 @@ public:
     float getPosition() const;
     void setPosition(float newPosition);
 
+    virtual void accelerate(const float seconds) override = 0;
+
 private:
     float mPosition = 0.0f; // km
 

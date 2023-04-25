@@ -8,6 +8,7 @@ class DieselCar : public PKW
 public:
 
     // TODO: Override accelerate
+    virtual void accelerate(const float seconds) override;
 
     DieselCar();
 
