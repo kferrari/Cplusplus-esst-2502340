@@ -8,11 +8,9 @@
                 "-std=c++17",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}/dieselcar.cpp",
-                "${fileDirname}/electriccar.cpp",
-                "${fileDirname}/fahrzeug.cpp",
+                "${fileDirname}/animal.cpp",
                 "${fileDirname}/main.cpp",
-                "${fileDirname}/pkw.cpp",
+                "${fileDirname}/zookeeper.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

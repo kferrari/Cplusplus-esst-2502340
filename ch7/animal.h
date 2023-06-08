@@ -21,19 +21,25 @@ protected:
 class Elefant : public Animal
 {
 public:
-    // TODO: Add definition for catchFoodFrom that overrides the virtual method of Animal
+    // TODO: Add definition for catchFoodFrom that overrides the virtual method
+    // of Animal
+    void catchFoodFrom(std::unique_ptr<Zookeeper> && zk);
 };
 
 class Giraffe : public Animal
 {
 public:
-    // TODO: Add definition for catchFoodFrom that overrides the virtual method of Animal
+    // TODO: Add definition for catchFoodFrom that overrides the virtual method
+    // of Animal
+     void catchFoodFrom(std::unique_ptr<Zookeeper> && zk);
 };
 
 class Lion : public Animal
 {
 public:
-    // TODO: Add definition for catchFoodFrom that overrides the virtual method of Animal
+    // TODO: Add definition for catchFoodFrom that overrides the virtual method
+    // of Animal
+     void catchFoodFrom(std::unique_ptr<Zookeeper> && zk);
 };
 
 
